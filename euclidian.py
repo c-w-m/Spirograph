@@ -9,7 +9,6 @@ def euclidianGCD(a, b):
         elif (a!=0 and b==0):
             return a
         else:#if both are zero
-            
             print "Cannot return a common divisor when both inputs are zero. Return None."
             return None
     else:#if neither input is zero
