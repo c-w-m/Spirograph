@@ -1,3 +1,4 @@
+#analog of the range() function but this one allows decimal increments
 def frange(start, end, step=None):
     if step!=None:
         this = start
