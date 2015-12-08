@@ -55,7 +55,12 @@ my_spirograph.draw()
 ```
 
 ##Randomize colors:
-In order to make the Turtle's color randomly change upon completion of each period of the curve, change the randColors variable to True on line 84 in Spirograph.py:
+In order to make the Turtle's color randomly change upon completion of each period of the curve, change the randColors variable to True in Spirograph.py.
+
+##Control drawing speed
+To change how quickly the Turtle draws the Spirograph curves, change the following: 
+* screen.tracer() method's input argument
+* t.speed() method's input argument
 
 ##A full example program 1:
 In the following program, three Spirograph curves are drawn on top of one another. Then, then canvas is cleared and two more curves are drawn. IMPORTANT: Note the exitonclick() method on the last line. It will prevent the Turtle window from closing automatically. 
