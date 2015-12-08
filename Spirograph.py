@@ -1,7 +1,6 @@
 #Author: marktini   github.com/marktini
 #Spirograph curve drawing program
 #Version 1.0
-
 import math
 import turtle
 import random
