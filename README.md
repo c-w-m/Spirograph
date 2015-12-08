@@ -1,5 +1,3 @@
-GITHUB DOC FILE:
-
 ##About
 This program draws Spirograph curves using Python and the Turtle library. 
 
