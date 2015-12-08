@@ -14,7 +14,7 @@ from Spirograph import Spirograph
 The program requires instantiation of a Spirograph. The constructor accepts the radius for the Spirograph's outer circle
 
 ```
-#create a new Spirograph toy with R = 300
+#create a new Spirograph toy with R = 220
 my_spirograph = Spirograph(220)
 ```
 
