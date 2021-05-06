@@ -1,13 +1,13 @@
 # [Spirograph](https://github.com/marktini/Spirograph)
 
-##About
+## About
 This program draws Spirograph curves using Python and the Turtle library. 
 
 To familiarize yourself with what a Spirograph is as well as to see the mathematical derivation of Spirograph curve equations, visit https://en.wikipedia.org/wiki/Spirograph 
 
 For Turtle documentation, visit https://docs.python.org/2/library/turtle.html
 
-##How to use
+## How to use
 Create a new Python file and import the Spirograph module: 
 ```
 from Spirograph import Spirograph
@@ -56,15 +56,15 @@ my_spirograph.setPen(278, 'yellow')
 my_spirograph.draw()
 ```
 
-##Randomize colors:
+## Randomize colors:
 In order to make the Turtle's color randomly change upon completion of each period of the curve, change the randColors variable to True in Spirograph.py.
 
-##Control drawing speed
+## Control drawing speed
 To change how quickly the Turtle draws the Spirograph curves, change the following: 
 * screen.tracer() method's input argument
 * t.speed() method's input argument
 
-##A full example program 1:
+## A full example program 1:
 In the following program, three Spirograph curves are drawn on top of one another. Then, then canvas is cleared and two more curves are drawn. IMPORTANT: Note the exitonclick() method on the last line. It will prevent the Turtle window from closing automatically. 
 
 ```
@@ -102,7 +102,7 @@ my_spirograph.setPen(299)
 my_spirograph.t.getscreen().exitonclick()
 ```
 
-##A full example program 2:
+## A full example program 2:
 ```
 from Spirograph import Spirograph
 
